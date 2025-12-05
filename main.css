@@ -127,6 +127,19 @@ h1 {
 
 /* Manual Styles */
 /* Container Start */
+.navbar {
+  max-width: 1400px;
+  margin-block: var(--sp-lg);
+  margin-inline: auto;
+  padding: var(--sp-md);
+  box-shadow: var(--box-shadow-md);
+  display: flex;
+  justify-content: center;
+  gap: var(--sp-xxl);
+  background-color: white;
+  border-radius: var(--radius-md);
+}
+
 .container {
   max-width: 1400px;
   /* background: red; */
@@ -144,7 +157,8 @@ h1 {
 }
 
 .header-title {
-  margin-bottom: var(--sp-xl);
+  text-align: center;
+  margin-bottom: var(--sp-xxl);
 }
 
 .hero-wrapper {
@@ -162,7 +176,7 @@ h1 {
 
 .hero-img {
   width: 50%;
-  height: 600px;
+  height: 536px;
   object-fit: cover;
   object-position: center;
   border-radius: var(--radius-lg);
@@ -316,6 +330,22 @@ h1 {
 }
 
 /* Projects Wrapper End */
+
+/* Activities Start */
+.activities {
+  background: var(--clr-surface);
+  box-shadow: var(--box-shadow-md);
+  padding: var(--sp-xxl);
+  border-radius: var(--radius-xl);
+  margin-top: var(--sp-xxl);
+}
+
+.activities > h2 {
+  text-align: center;
+  font-size: var(--fs-xl);
+}
+
+/* Activities End */
 
 /* References Wrapper Start */
 .references-wrapper {
