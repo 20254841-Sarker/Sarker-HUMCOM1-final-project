@@ -423,6 +423,18 @@ h1 {
   background: url("images/activities/ac3.png") no-repeat center / cover;
 }
 
+.activities .card-wrapper .card4 .card-img {
+  background: url("images/activities/ac4.jpg") no-repeat center / cover;
+}
+
+.activities .card-wrapper .card5 .card-img {
+  background: url("images/activities/ac5.jpg") no-repeat center / cover;
+}
+
+.activities .card-wrapper .card6 .card-img {
+  background: url("images/activities/ac6.jpg") no-repeat center / cover;
+}
+
 .activities .card-wrapper .card .card-img > a {
   position: absolute;
   top: 50%;
